@@ -2,6 +2,7 @@ CREATE TABLE users (
   id SERIAL PRIMARY KEY,
   line_uid VARCHAR(100) UNIQUE NOT NULL,
   name VARCHAR(100),
+  gender VARCHAR(20),
   phone VARCHAR(20),
   birth_date DATE,
   birth_time TIME,
